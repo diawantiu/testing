@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Form Biodata </title>
+</head>
+    <body>
+    	<h1 align="center"> Form Biodata Diri </h1>
+	<h4>Masukkan Biodata Anda :</h4>
+	<form action="cek.php" method="POST">
+		<table>
+			<tr>
+				<td>NIM :</td>
+				<td><input type="text" name="nim"></td>
+			</tr>
+			<tr>
+				<td>Nama :</td>
+				<td><input type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin :</td>
+				<td><input type="radio" name="JK" value="Laki-laki"> Laki-laki
+				<td><input type="radio" name="JK" value="Perempuan"> Perempuan</td>
+			</tr>
+			<tr>
+				<td>Agama :</td>
+				<td><select name='agama'>
+		<option value='islam'>Islam</option>
+<option value='kristen'>Kristen</option>
+		<option value='katholik'>Katholik</option>
+		<option value='hindu'>Hindu</option>
+		<option value='kristen'>Budha</option>
+	  </select></td>
+			</tr>
+			<tr>
+				<td>Hobi :</td>
+				<td><input type='checkbox' name='hobi' value='browsing'/>browsing</td>
+      <td><input type='checkbox' name='hobi' value='dengerin lagu' />dengerin lagu</td>
+      <td><input type='checkbox' name='hobi' value='berenang' />berenang</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" name="input-data" value="submit"></td>
+			</tr>							
+		</table>
+	</form>
+</body>
+</html>
+
